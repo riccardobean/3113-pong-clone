@@ -365,6 +365,7 @@ void processInput()
             ResetBall(0);
             GameReset();
             gGameMode = MULTI_PLAYER;
+            gGameDifficulty = REGULAR;
             gGameStatus = PLAYING;
         }
         if (IsKeyPressed(KEY_THREE))
@@ -372,6 +373,7 @@ void processInput()
             ResetBall(0);
             GameReset();
             gGameMode = AI;
+            gGameDifficulty = REGULAR;
             gGameStatus = PLAYING;
         }
         if (IsKeyPressed(KEY_FOUR))
